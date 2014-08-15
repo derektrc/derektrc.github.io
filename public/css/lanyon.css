@@ -283,20 +283,12 @@ a.sidebar-nav-item:focus {
 }
 
 /* SIDEBAR EDIT */
-/*
-#sidebar-checkbox:checked ~ .wrap {
-  -webkit-transform: translateX(200rem);
-      -ms-transform: translateX(200rem);
-          transform: translateX(200rem);
-}
-*/
-/*#sidebar-checkbox:checked ~ .wrap,*/
-
+#sidebar-checkbox:checked ~ .wrap,
 #sidebar-checkbox:checked ~ .sidebar,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
-  -webkit-transform: translateX(14rem);
-      -ms-transform: translateX(14rem);
-          transform: translateX(14rem);
+  -webkit-transform: translateX(4rem);
+      -ms-transform: translateX(4rem);
+          transform: translateX(4rem);
 }
 
 
@@ -546,9 +538,9 @@ a.pagination-item:hover {
  */
 
 .sidebar-overlay #sidebar-checkbox:checked ~ .wrap {
-  -webkit-transform: translateX(5rem);
-      -ms-transform: translateX(5rem);
-          transform: translateX(5rem);
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
 }
 .sidebar-overlay #sidebar-checkbox:checked ~ .sidebar-toggle {
   box-shadow: 0 0 0 .25rem #fff;
