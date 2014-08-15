@@ -282,14 +282,6 @@ a.sidebar-nav-item:focus {
   visibility: visible;
 }
 
-#sidebar-checkbox:checked ~ .sidebar,
-/*#sidebar-checkbox:checked ~ .wrap,*/
-#sidebar-checkbox:checked ~ .sidebar-toggle {
-  -webkit-transform: translateX(14rem);
-      -ms-transform: translateX(14rem);
-          transform: translateX(14rem);
-}
-
 
 /*
  * Posts and pages
