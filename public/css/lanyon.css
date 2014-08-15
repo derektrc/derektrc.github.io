@@ -283,9 +283,9 @@ a.sidebar-nav-item:focus {
 }
 
 #sidebar-checkbox:checked ~ .wrap {
-  -webkit-transform: translateX(5rem);
-      -ms-transform: translateX(5rem);
-          transform: translateX(5rem);
+  -webkit-transform: translateX(14rem);
+      -ms-transform: translateX(14rem);
+          transform: translateX(14rem);
 }
 
 #sidebar-checkbox:checked ~ .sidebar,
