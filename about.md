@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Me
+title: About
 ---
 
 Hi There! Welcome to my website. I am a current Masters Student in Aerospace Engineering at the University of Illinois at Urbana-Champaign.
