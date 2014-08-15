@@ -283,8 +283,12 @@ a.sidebar-nav-item:focus {
 }
 
 #sidebar-checkbox:checked ~ .sidebar,
-#sidebar-checkbox:checked ~ .wrap,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
+  -webkit-transform: translateX(14rem);
+      -ms-transform: translateX(14rem);
+          transform: translateX(14rem);
+}
+#sidebar-checkbox:checked ~ .wrap {
   -webkit-transform: translateX(1rem);
       -ms-transform: translateX(1rem);
           transform: translateX(1rem);
