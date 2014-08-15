@@ -211,7 +211,7 @@ a.sidebar-nav-item:focus {
   top:  1rem;
   left: 1rem;
   display: block;
-  width: 0.01rem;
+  width: 2.2rem;
   padding: .5rem .65rem;
   color: #505050;
   background-color: #fff;
@@ -281,6 +281,7 @@ a.sidebar-nav-item:focus {
   z-index: 10;
   visibility: visible;
 }
+/*
 #sidebar-checkbox:checked ~ .sidebar,
 #sidebar-checkbox:checked ~ .wrap,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
@@ -288,7 +289,7 @@ a.sidebar-nav-item:focus {
       -ms-transform: translateX(14rem);
           transform: translateX(14rem);
 }
-
+*/
 
 /*
  * Posts and pages
@@ -421,6 +422,22 @@ a.pagination-item:hover {
   -webkit-transform: translateX(-14rem);
       -ms-transform: translateX(-14rem);
           transform: translateX(-14rem);
+}
+
+#sidebar-checkbox:checked ~ .sidebar,
+#sidebar-checkbox:checked ~ .wrap,
+#sidebar-checkbox:checked ~ .sidebar-toggle {
+  -webkit-transform: translateX(140rem);
+      -ms-transform: translateX(140rem);
+          transform: translateX(140rem);
+}
+
+.layout-reverse #sidebar-checkbox:checked ~ .sidebar,
+.layout-reverse #sidebar-checkbox:checked ~ .wrap,
+.layout-reverse #sidebar-checkbox:checked ~ .sidebar-toggle {
+  -webkit-transform: translateX(-140rem);
+      -ms-transform: translateX(-140rem);
+          transform: translateX(-140rem);
 }
 
 
