@@ -288,7 +288,7 @@ a.sidebar-nav-item:focus {
       -ms-transform: translateX(14rem);
           transform: translateX(14rem);
 }*/
-
+#sidebar-checkbox:checked ~ .wrap,
 #sidebar-checkbox:checked ~ .sidebar,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
   -webkit-transform: translateX(14rem);
