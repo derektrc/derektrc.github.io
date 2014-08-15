@@ -289,6 +289,11 @@ a.sidebar-nav-item:focus {
           transform: translateX(14rem);
 }
 
+#sidebar-checkbox:checked ~ .wrap{
+  -webkit-transform: translateX(14rem);
+      -ms-transform: translateX(14rem);
+          transform: translateX(14rem);
+}
 
 /*
  * Posts and pages
