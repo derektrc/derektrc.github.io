@@ -282,7 +282,12 @@ a.sidebar-nav-item:focus {
   visibility: visible;
 }
 
-/*#sidebar-checkbox:checked ~ .wrap,*/
+#sidebar-checkbox:checked ~ .wrap {
+  -webkit-transform: translateX(5rem);
+      -ms-transform: translateX(5rem);
+          transform: translateX(5rem);
+}
+
 #sidebar-checkbox:checked ~ .sidebar,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
   -webkit-transform: translateX(14rem);
