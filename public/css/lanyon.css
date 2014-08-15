@@ -283,13 +283,13 @@ a.sidebar-nav-item:focus {
 }
 
 /* SIDEBAR EDIT */
-
+/*
 #sidebar-checkbox:checked ~ .wrap {
   -webkit-transform: translateX(200rem);
       -ms-transform: translateX(200rem);
           transform: translateX(200rem);
 }
-
+*/
 /*#sidebar-checkbox:checked ~ .wrap,*/
 
 #sidebar-checkbox:checked ~ .sidebar,
