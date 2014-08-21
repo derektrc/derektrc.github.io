@@ -8,7 +8,7 @@ permalink:        pretty
 # Setup
 title:            Derek Chen
 tagline:          'About'
-description:      'Don\'t you dream impossible things?'
+description:      'Dont you dream impossible things?'
 url:              http://derektrc.github.io
 baseurl:          '/'
 paginate:         5
