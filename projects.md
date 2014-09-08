@@ -2,7 +2,8 @@
 layout: page
 title: Projects
 ---
-Here's a list of the projects I have done as well as a short description.
+I have listed a lot of projects which I have completed during my undergrad career. In each of these projects, I played a major role in the inception of each idea and served as Team Lead through the projects' completion.
+
 Personal Projects
 ===
 Woof! Intelligent Home Security System
